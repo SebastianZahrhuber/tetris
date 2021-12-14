@@ -1,0 +1,2 @@
+@IF "%SWO3_LIBS_DIR%"=="" set SWO3_LIBS_DIR=C:\Users\sebas\Documents\FH\Semester_3\Softwareentwicklung_mit_klassischen_Sprachen\Uebung\SWO3_LIBS
+cmake.exe -DVCPKG_TARGET_TRIPLET="x64-windows" -DCMAKE_TOOLCHAIN_FILE="%SWO3_LIBS_DIR%\scripts\buildsystems\vcpkg.cmake" -G"Visual Studio 17 2022" ..
